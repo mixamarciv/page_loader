@@ -1,0 +1,2 @@
+
+$('body').prepend($('head')).html();

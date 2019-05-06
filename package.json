@@ -1,0 +1,17 @@
+{
+  "name": "myapp",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./app.js"
+  },
+  "dependencies": {
+    "chrome-remote-interface": "*",
+    "minimist": "*",
+    "mixa_std_js_functions": "https://github.com/mixamarciv/mixa_std_js_functions/tarball/master",
+    "kill-prev-app-process": "https://github.com/mixamarciv/kill-prev-app-process/tarball/master",
+    "iconv-lite": "*",
+    "express": "*",
+    "node.extend": "*"
+  }
+}
