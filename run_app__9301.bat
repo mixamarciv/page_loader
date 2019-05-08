@@ -18,6 +18,6 @@ START /D "%chrome_path%" /B chrome.exe --user-data-dir="C:\pg\chrome\profile_p%C
 @ping 127.0.0.1 -n 6 > nul
 
 ::START /D "%curpath%" /B node app.js --port %APPPORT%  --cdp_port=%CROMEPORT%  --max_pageclients=5
-node app.js --port %APPPORT%  --cdp_port=%CROMEPORT%  --max_pageclients=5
+node app.js --port %APPPORT%  --cdp_port=%CROMEPORT%  --max_pageclients=1
 @echo ==== end   ===================================================================
 @pause
